@@ -1,4 +1,3 @@
-
 *{
     padding: 0;
     margin: 0;
@@ -6,23 +5,14 @@
     box-sizing: border-box;
 }
 
-
-
-
-
 .background{
-    background-color: #191919;
-
-    /*background-image: url(l.jpg);*/
+   background-color: #101010;
     background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100%;
 
-
 }
-
-
 
 nav{
     display: flex;
@@ -33,9 +23,6 @@ nav{
     padding-right: 8%;
 }
 
-
-/*onde ue quero colocar o s*/
-
 .logo{
     color: #fff;
     font-size: 35px;
@@ -43,14 +30,9 @@ nav{
     letter-spacing: 1px;
 }
 
-
-
 span{
-    color: #0d640d;
+    color: #2cc72c;
 }
-
-
-
 
 nav ul li{
     list-style-type: none;
@@ -58,73 +40,53 @@ nav ul li{
     padding: 10px  25px;
 }
 
-
-
-
 nav ul li a{
-    color: #fff;
+    color: #fff; /*cor da naaveção*/
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
 }
-
-
-
 
 nav ul li a:hover{
     color: #2cc72c;
     transform: .4s;
 }
 
-
-
-
-.btn{
-    background-color: #2cc72c;
-    color: #fff;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 10px 25px;
-    border-radius: 30px;
-    transition: transform .4s;
-}
-
-
-
-
-.btn:hover{
-    transform: scale(1.2);
-}
-
-
-
-
 .Main{
     position: absolute;
     top: 50%;
     left: 8%;
     transform: translateY(-50%);
+ }
+
+#texto{
+    float: left;
+}
+/*mexer na foto do perfil*/
+#perfil {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 100px;
+    transform: translateY(20px);
+    transition: transform 1s ease-in-out;
 }
 
-
-
+#perfil:hover {
+    transform: translateY(0);
+}
 
 .Main span{
     color: #2cc72c;
 }
 
-
-
-
 h1{
     color: #fff;
     margin: 20px 0px 20px;
-    font-size: 75px;
+    font-size: 00px;
 }
-
-
-
 
 h4{
     color:#fff;
@@ -132,26 +94,17 @@ h4{
     font-size: 20px;
 }
 
-
-
-
 h3{
     color: #fff;
     font-size: 25px;
     margin-bottom: 50px;
 }
 
-
-
-
 .Container-btn form{
     width: 380px;
     max-width: 100%;
     position: relative;
 }
-
-
-
 
 .Container-btn form input:first-child{
     display: inline-block;
@@ -162,62 +115,24 @@ h3{
     outline: none;
 }
 
-
-
-
-.Container-btn form input:last-child{
-    position: absolute;
-    display: inline-block;
-    outline: none;
-    border: none;
-    padding: 10px 30px;
-    border-radius: 30px;
-    background-color: #2cc72c;
-    color: #fff;
-    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
-    right: 6px;
-    top: 6px;
-
-
-
-
-}
-
-
-
-
 .background-color-Sobre{
     background-color: #191919;
     width: 100%;
     padding: 100px 0px;
-
-
-
-
 }
-
-
-
 
 .background-color-Sobre img{
     width: 430px;
     height: auto;
 }
 
-
 #sobre{
     height: 100vh;
 }
 
-
-
-
 .Text-sobre{
     width: 550px;
   }
-
-
-
 
 .main-sobre{
    display: flex;
@@ -227,9 +142,6 @@ h3{
    margin: 0 auto;
 }
 
-
-
-
 .Text-sobre h2{
     color: #fff;
     font-size: 75px;
@@ -237,33 +149,24 @@ h3{
     margin-bottom: 20px;
 }
 
-
-
-
 .Text-sobre h5{
-    color: #fff;
+    color: #fff; /*teoricamente era para muda aqui*/
     letter-spacing: 2px;
     font-size: 22px;
     margin-bottom: 25px;
     text-transform: capitalize;
 }
 
-
-
-
 .Text-sobre p{
-    color: #fcfc;
+    color: rgba(232, 229, 236, 0.8); /*aqui tambem poderia mudar*/
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
 }
 
-
-
-
 button{
-    background-color: #2cc72c;
+    background-color: #21d10a;
     color: #fff;
     text-transform: none;
     border: 2px solid transparent;
@@ -271,14 +174,7 @@ button{
     padding: 13px 20px;
     border-radius: 30px;
     transition: .4s;
-
-
-
-
 }
-
-
-
 
 button:hover{
     background-color: transparent;
@@ -286,30 +182,13 @@ button:hover{
     cursor: pointer;
 }
 
-
-
-
-.Container-servicos{
-    background-color: #101010;
-    width: 100%;
-    padding: 100px 0px;
-}
-
-
-/* clocar o id
- height: 100vh;*/
-
-
 .title h2{
-    color: #fff;
+    color: #e21212;  /* aqui tambem poderia mudar*/
     font-size: 75px;
     width: 1130px;
     margin: 30px auto;
     text-align: center;
 }
-
-
-
 
 .Caixa{
     display: flex;
@@ -318,9 +197,6 @@ button:hover{
     min-height: 400px;
     flex-wrap: wrap;
 }
-
-
-
 
 .Card{
     background: #191919;
@@ -331,40 +207,7 @@ button:hover{
     position: relative;
     overflow: hidden;
     text-align:  center;
-
-
-
-
 }
-
-
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Josefin Sans', sans-serif;
-    box-sizing: border-box;
-}
-
-
-
-
-
-
-
-
-.background{
-    background-image: url(eu.jpeg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
-
-
-
-
-}
-
-
 
 
 nav{
@@ -376,76 +219,46 @@ nav{
     padding-right: 8%;
 }
 
-
-
-
 .logo{
     color: #fff;
     font-size: 35px;
     cursor: pointer;
     letter-spacing: 1px;
 }
+
 span{
     color: #21d10a;
 }
-
-
-
 
 nav ul li{
     list-style-type: none;
     display: inline-block;
     padding: 10px  25px;
 }
-/*tentar arrumar o botão
-nav ul li a{
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: capitalize;
-}
-nav ul li a:hover{
-    color: #21d10a;
-    transform: .4s;
-}
-*/
-.btn{
+
+.btn{     /*esse botão que eu quero*/
     background-color: #21d10a;
     color: #fff;
-    text-decoration: none;
+    text-transform: none;
     border: 2px solid transparent;
     font-weight: bold;
-    padding: 10px 25px;
+    padding: 13px 20px;
     border-radius: 30px;
-    transition: transform .4s;
+    transition: .4s;
 }
-
-
 
 
 .btn:hover{
-    transform: scale(1.2);
+
+    background-color: transparent;
+    border: 2px solid #2cc72c;
+    cursor: pointer;
 }
-
-
-
-
-.Main{
-    position: absolute;
-    top: 50%;
-    left: 8%;
-    transform: translateY(-50%);
-}
-
-
 
 
 .Main span{
     color: #21d10a;
 }
-
-
-
 
 h1{
     color: #fff;
@@ -453,26 +266,17 @@ h1{
     font-size: 75px;
 }
 
-
-
-
 h4{
-    color: #fcfc;
+    color: rgb(252, 249, 252);   /* aqui muda a cor da class main*/
     letter-spacing: 2px;
     font-size: 20px;
 }
-
-
-
 
 h3{
     color: #fff;
     font-size: 25px;
     margin-bottom: 50px;
 }
-
-
-
 
 .Container-btn form{
     width: 380px;
@@ -481,21 +285,7 @@ h3{
 }
 
 
-
-
-.Container-btn form input:first-child{
-    display: inline-block;
-    width: 100%;
-    padding: 14px 130px 14px 15px;
-    border: 2px solid #21d10a;
-    border-radius: 30px;
-    outline: none;
-}
-
-
-
-
-.Container-btn form input:last-child{
+.Container-btn form input:last-child{ /*acho que tem uma repetida*/
     position: absolute;
     display: inline-block;
     outline: none;
@@ -504,154 +294,18 @@ h3{
     border-radius: 30px;
     background-color: #21d10a;
     color: #fff;
-    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #d11818; /*esse poderia mudar*/
     right: 6px;
     top: 6px;
-
-
-
-
 }
-
-
-
-
-.background-color-Sobre{
-    background-color: #191919;
-    width: 100%;
-    padding: 100px 0px;
-
-
-
-
-}
-
-
-
-
-#sobre{
-    height: 100vh;
-}
-
-
-
-
-.background-color-Sobre img{
-    width: 430px;
-    height: auto;
-}
-
-
-
-
-
-
-.Text-sobre{
-    width: 550px;
-  }
-
-
-
-
-.main-sobre{
-   display: flex;
-   align-items: center;
-   justify-content: space-around;
-   width: 1130px;
-   margin: 0 auto;
-}
-
-
-
-
-.Text-sobre h2{
-    color: #fff;
-    font-size: 75px;
-    text-transform: capitalize;
-    margin-bottom: 20px;
-}
-
-
-
-
-.Text-sobre h5{
-    color: #fff;
-    letter-spacing: 2px;
-    font-size: 22px;
-    margin-bottom: 25px;
-    text-transform: capitalize;
-}
-
-
-
-
-.Text-sobre p{
-    color: #fcfc;
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 18px;
-    margin-bottom: 45px;
-}
-
-
-
-
-button{
-    background-color: #21d10a;
-    color: #fff;
-    text-transform: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 13px 20px;
-    border-radius: 30px;
-    transition: .4s;
-
-
-
-
-}
-
-
-
-
-button:hover{
-    background-color: transparent;
-    border: 2px solid #21d10a;
-    cursor: pointer;
-}
-
-
-
-
-
-
-
-
-.background-color-servisos{   /*serviços*/
-    background-color: #191919;
-    width: 100%;
-    padding: 100px 0px;
-
-
-
-
-}
-
-
-
 
 #servicos{
     height: 100hv;
 }
 
-
-/*serviços*/
-
-
 .Text-sobre{
     width: 550px;
-  }
-
+}
 
 .main-sobre{
    display: flex;
@@ -660,56 +314,6 @@ button:hover{
    width: 1130px;
    margin: 0 auto;
 }
-
-
-.Text-sobre h2{
-    color: #fff;
-    font-size: 75px;
-    text-transform: capitalize;
-    margin-bottom: 20px;
-}
-
-
-.Text-sobre h5{
-    color: #fff;
-    letter-spacing: 2px;
-    font-size: 22px;
-    margin-bottom: 25px;
-    text-transform: capitalize;
-}
-
-
-.Text-sobre p{
-    color: #fcfc;
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 18px;
-    margin-bottom: 45px;
-}
-
-
-button{
-    background-color: #21d10a;
-    color: #fff;
-    text-transform: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 13px 20px;
-    border-radius: 30px;
-    transition: .4s;
-
-
-
-
-}
-
-
-button:hover{
-    background-color: transparent;
-    border: 2px solid #21d10a;
-    cursor: pointer;
-}
-
 
 .Container-serviços{
     background-color: #101010;
@@ -718,25 +322,24 @@ button:hover{
 }
 /* aqui começa a barra de rolagem do card*/
 
-
 .scrollable-content {
     max-height: 200px; /* Defina a altura máxima desejada */
     overflow-y: auto;
   }
- 
+
   .scrollable-content::-webkit-scrollbar {
     width: 6px;
     background-color: transparent;
-  }
- 
+}
+
   .scrollable-content::-webkit-scrollbar-thumb {
     background-color: #000;
   }
- 
+
   .scrollable-content::-webkit-scrollbar-track {
     background-color: transparent;
   }
-  /* Aqui é onde termina a barra de rolagem do card */
+  /* Aqui é onde define a barra de rolagem do card */
   .title h2 {
     color: #fff;
     font-size: 75px;
@@ -744,37 +347,14 @@ button:hover{
     margin: 30px auto;
     text-align: center;
   }
- 
-  .Caixa {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 400px;
-    flex-wrap: wrap;
-  }
- 
-  .Card {
-    background: #191919;
-    height: 365px;
-    width: 335px;
-    border-radius: 50px;
-    margin: 25px;
-    position: relative;
-    overflow: hidden;
-    text-align: center;
-  }
- 
-  .Card i {
-    font-size: 25px;
+
+  .Card i {  
+    font-size: 40px;
     display: block;
     text-align: center;
     margin: 15px 0px;
-    color: #21d10a;
+    color: #21d10a;/*cor dos icones*/
   }
- 
-
-
-
 
   /*  termina aqui */
 h5{
@@ -783,27 +363,16 @@ h5{
     margin-bottom: 15px;
 }
 
-
-
-
 .Paragrafo-button{
-    color: #fcfc;
+    color: rgb(255, 255, 255); /*aqui muda a cor das palavras no card*/
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
 }
 
-
-
-
 .Paragrafo-button button{
     margin-top: 25px;
 }
-
-
-
-
-
 
 .me-contate {
     width: 100px;
@@ -815,35 +384,23 @@ h5{
     align-items: center ;
 }
 
-
-
-
-
-
-
-
-.caixa {
-    width: 600px;
-    width: 500px; /* fazparte do contato */
-    height: 30px;
-    padding: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-
 #contatos{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-   /* width: 100vw;*/
-    background-color: #191919;
-
-
+      background-color: #191919;
 }
 
+.caixa {
+    width: 800px;
+    width: 500px; /* fazparte do contato */
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #21d10a;
+    border-radius: 4px;
+}
 
 .me-contate p{
     color: #fff;
@@ -851,9 +408,6 @@ h5{
     font-weight: bold;
     margin-bottom: 100px;
 }
-
-
-
 
 .me-contate {  
     width: 100%;
@@ -865,22 +419,12 @@ h5{
     align-items: center ;
 }
 
-
-
-
 .me-contate p{
     color: #fff;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
 }
-
-
-
-
-
-
-
 
 footer{
     position: relative;
@@ -893,16 +437,10 @@ footer{
     justify-content: center;
 }
 
-
-
-
 footer h6{
     font-size: 35px;
     color: #fff;
 }
-
-
-
 
 footer p{
     color: #fff;
@@ -911,22 +449,12 @@ footer p{
     text-align: center;
     margin-top: 15px;
     letter-spacing: 1px;
-    line-height: 10px;
+    line-height: 23px;
 }
-
-
-
 
 .Redes-sociais{
     display: flex;
-
-
-
-
 }
-
-
-
 
 .Redes-sociais a{
     background-color: #21d10a;
@@ -944,10 +472,8 @@ footer p{
     flex-direction: row;
 }
 
-
-
-
 .Redes-sociais a:hover{
     transform: scale(1.2);
     transition: .3s;
 }
+
